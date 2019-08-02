@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">   
+    <a href="#"></a>
+        </h1>
+        <div class="menu">
+   <span class="icon-menu"></span>
+        </div>
+    </header>
+   
+    <script src="js/swiper.min.js"></script>
+    <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="imges/Layer.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imges/Layer.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="imges/layer.png" alt="">
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <main class="main">
+            <div class="cat"></div>
+                <h1 class="logo1">   
+                        <a href="#"></a>
+                            </h1>
+                            <div class="text"></div>
+                       <span>全部课程</span>
+                            </div>
+                        </div>
+                <section class="item">
+                    <a href="#"></a>
+                    <div class="pic">
+                        <img src="imges/layer.png" alt="">
+                        <div class="txt">
+                            <h2>Vue.js从理论精讲到项目实战课程</h2>
+                            <p>￥599.00元</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="item">
+                        <a href="#"></a>
+                        <div class="pic">
+                            <img src="imges/layer.png" alt="">
+                            <div class="txt">
+                                <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                <p>￥599.00元</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="item">
+                            <a href="#"></a>
+                            <div class="pic">
+                                <img src="imges/layer.png" alt="">
+                                <div class="txt">
+                                    <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                    <p>￥599.00元</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="item">
+                                <a href="#"></a>
+                                <div class="pic">
+                                    <img src="imges/layer.png" alt="">
+                                    <div class="txt">
+                                        <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                        <p>￥599.00元</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="item">
+                                    <a href="#"></a>
+                                    <div class="pic">
+                                        <img src="imges/layer.png" alt="">
+                                        <div class="txt">
+                                            <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                            <p>￥599.00元</p>
+                                        </div>
+                                    </div>
+                                </section><section class="item">
+                                        <a href="#"></a>
+                                        <div class="pic">
+                                            <img src="imges/layer.png" alt="">
+                                            <div class="txt">
+                                                <h2>Vue.js从理论精讲到项目实战课程</h2>
+                                                <p>￥599.00元</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                     <div class="footer">
+                         <div class="pic icon">
+                                <a href="#"></a>
+                            <span>首页</span>
+                         </div>
+                         <div class="pic icon">
+                                <a href="#"></a>
+                            <span>首页</span>
+                         </div>
+                         <div class="pic icon">
+                                <a href="#"></a>
+                            <span>首页</span>
+                         </div>
+                        
+                     </div>               
+            </main>
+    <script type="text/javascript">
+        function refreshRem(){
+            var desW=640,
+                winW=document.documentElement.clientWidth,
+                ratio=winW/desW;
+            document.documentElement.style.fontSize=ratio*100+'px';
+        }
+        refreshRem();
+        window.addEventListener('resize',refreshRem);
+        </script>
+        <script>        
+                var mySwiper = new Swiper ('.swiper-container', {
+                    loop: true, // 循环模式选项
+                    
+                    // 如果需要分页器
+                    pagination: {
+                    el: '.swiper-pagination',
+                    },
+            
+                    //自动轮播 autoplay:true
+                    autoplay: {
+                        delay: 2000,
+                        disableOnInteraction: false
+                        // 用户操作之后开启自动轮播
+                    }
+                })        
+                </script>   
+            
+</body>
+</html>
